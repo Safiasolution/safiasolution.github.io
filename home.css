@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(55, 59, 59);
+}
+
+.navbar-nav li {
+    padding-right: .7em;
+}
+
+/* Section one background */
+.sectionOne {
+    background-image: url(img/cookie-the-pom-siNDDi9RpVY-unsplash.jpg);
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* section one small size max of  */
+ @media (max-width: 24em) {
+body{
+    background-color: rgb(245, 243, 242);
+}
+
+h3 {
+     font-size: 0.99em;
+ }
+button{
+    padding: 0em;
+}
+.sectionOne {
+    background-image: none;
+}
+
+ }
+
+/* section one data and form */
+.sectionOneTwo {
+    position: absolute;
+    top: 30%;
+    left: 6%;
+    width: 38%;
+}
+
+
+
